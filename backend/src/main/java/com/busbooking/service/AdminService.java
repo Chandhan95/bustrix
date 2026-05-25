@@ -31,8 +31,6 @@ public class AdminService {
     private final ScheduleRepository scheduleRepository;
     private final BookingRepository bookingRepository;
 
-    // ===================== DASHBOARD =====================
-
     public AdminDashboardResponse getDashboardStats() {
         log.info("Fetching admin dashboard stats");
 
