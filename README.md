@@ -205,6 +205,3 @@ cd frontend && npm run build
 
 ---
 
-## 📄 License
-
-MIT License — Built with ❤️ as an enterprise demonstration project.
