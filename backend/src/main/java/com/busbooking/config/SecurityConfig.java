@@ -25,7 +25,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import java.util.Arrays;
 import java.util.List;
-
+//configuration class for Spring Security that sets up JWT authentication, CORS, and role-based access control. It defines a security filter chain that specifies which endpoints are public and which require authentication, as well as the authentication provider and password encoder to use.
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity(prePostEnabled = true)
