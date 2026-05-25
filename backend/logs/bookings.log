@@ -1,0 +1,23 @@
+2026-05-25 12:34:28.100 [http-nio-2020-exec-9] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:34:31.662 [http-nio-2020-exec-5] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:34:33.790 [http-nio-2020-exec-2] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:34:37.747 [http-nio-2020-exec-4] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:34:47.020 [http-nio-2020-exec-7] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:34:53.637 [http-nio-2020-exec-6] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:35:39.727 [http-nio-2020-exec-1] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:35:45.531 [http-nio-2020-exec-8] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:35:47.452 [http-nio-2020-exec-10] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:36:03.456 [http-nio-2020-exec-1] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:36:04.964 [http-nio-2020-exec-1] INFO  - Booking confirmed: PNR=BT2605251236039729, User=admin@bustix.com, Seats=[A4]
+2026-05-25 12:38:57.682 [http-nio-2020-exec-8] INFO  - Creating booking for schedule 1 by user admin@bustix.com
+2026-05-25 12:38:57.721 [http-nio-2020-exec-8] INFO  - Booking confirmed: PNR=BT2605251238574534, User=admin@bustix.com, Seats=[B2]
+2026-05-25 12:40:35.123 [http-nio-2020-exec-5] INFO  - Creating booking for schedule 1 by user vaishnavi_vemulapalli@srmap.edu.in
+2026-05-25 12:40:35.168 [http-nio-2020-exec-5] INFO  - Booking confirmed: PNR=BT2605251240352924, User=vaishnavi_vemulapalli@srmap.edu.in, Seats=[D3]
+2026-05-25 13:07:52.051 [http-nio-2020-exec-6] INFO  - Creating booking for schedule 3 by user vaishnavi_vemulapalli@srmap.edu.in
+2026-05-25 13:07:52.165 [http-nio-2020-exec-6] INFO  - Booking confirmed: PNR=BT2605251307525589, User=vaishnavi_vemulapalli@srmap.edu.in, Seats=[F3]
+2026-05-25 13:52:32.131 [http-nio-2020-exec-3] INFO  - Creating booking for schedule 10 by user saichandhan1199@gmail.com
+2026-05-25 13:52:32.242 [http-nio-2020-exec-3] INFO  - Booking confirmed: PNR=BT2605251352324549, User=saichandhan1199@gmail.com, Seats=[B4]
+2026-05-25 13:54:29.906 [http-nio-2020-exec-10] INFO  - Booking cancelled: PNR=BT2605251352324549, Reason=Change date
+2026-05-25 14:01:43.842 [http-nio-2020-exec-9] INFO  - Creating booking for schedule 10 by user vaishnavi_vemulapalli@srmap.edu.in
+2026-05-25 14:01:43.941 [http-nio-2020-exec-9] INFO  - Booking confirmed: PNR=BT2605251401438432, User=vaishnavi_vemulapalli@srmap.edu.in, Seats=[D3, D4, E3, E4, F3]
+2026-05-25 14:02:38.718 [http-nio-2020-exec-6] INFO  - Booking cancelled: PNR=BT2605251307525589, Reason=advv

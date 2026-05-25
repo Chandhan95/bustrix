@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Booking Confirmed</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Segoe UI', Arial, sans-serif; background:#f0f4f8; }
+    .wrapper { max-width:620px; margin:30px auto; background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 4px 24px rgba(0,0,0,0.1); }
+    .header { background:linear-gradient(135deg,#059669,#10b981); padding:32px 30px; text-align:center; }
+    .header h1 { color:#fff; font-size:26px; margin-bottom:6px; }
+    .header p { color:rgba(255,255,255,0.85); font-size:14px; }
+    .pnr-box { background:rgba(255,255,255,0.15); border:2px dashed rgba(255,255,255,0.5); border-radius:10px; padding:12px 20px; display:inline-block; margin-top:16px; }
+    .pnr-box .label { color:rgba(255,255,255,0.8); font-size:12px; text-transform:uppercase; letter-spacing:1px; }
+    .pnr-box .value { color:#fff; font-size:24px; font-weight:700; letter-spacing:3px; }
+    .body { padding:30px; }
+    .route-card { background:linear-gradient(135deg,#f0fdf4,#dcfce7); border-radius:12px; padding:20px; margin-bottom:20px; border-left:4px solid #10b981; }
+    .route-info { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+    .city { text-align:center; }
+    .city-name { font-size:18px; font-weight:700; color:#1e293b; }
+    .city-time { font-size:13px; color:#64748b; margin-top:4px; }
+    .arrow { font-size:24px; color:#10b981; }
+    .details-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:20px 0; }
+    .detail-item { background:#f8fafc; border-radius:10px; padding:14px; }
+    .detail-label { font-size:11px; color:#94a3b8; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:4px; }
+    .detail-value { font-size:14px; font-weight:600; color:#1e293b; }
+    .qr-section { text-align:center; padding:20px; background:#f8fafc; border-radius:12px; margin:20px 0; }
+    .qr-section p { color:#475569; font-size:13px; margin-top:10px; }
+    .qr-section img { width:180px; height:180px; border:8px solid #fff; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.1); }
+    .amount-box { background:linear-gradient(135deg,#6366f1,#8b5cf6); color:#fff; border-radius:12px; padding:16px 20px; text-align:center; margin:16px 0; }
+    .amount-box .label { font-size:12px; opacity:0.8; }
+    .amount-box .value { font-size:28px; font-weight:700; }
+    .btn { display:inline-block; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:#fff; text-decoration:none; padding:12px 28px; border-radius:8px; font-size:14px; font-weight:600; margin:8px 0; }
+    .footer { background:#f8fafc; padding:20px 30px; text-align:center; color:#94a3b8; font-size:12px; border-top:1px solid #e2e8f0; }
+    .seats-list { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+    .seat-badge { background:#059669; color:#fff; padding:4px 10px; border-radius:6px; font-size:13px; font-weight:600; }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <div style="font-size:40px; margin-bottom:10px;">✅</div>
+    <h1>Booking Confirmed!</h1>
+    <p>Your ticket is ready. Have a safe journey!</p>
+    <div class="pnr-box">
+      <div class="label">PNR Number</div>
+      <div class="value">BT2605251307525589</div>
+    </div>
+  </div>
+
+  <div class="body">
+    <p style="color:#475569;font-size:15px;margin-bottom:20px;">
+      Hi <strong>Vaishnavi Vem</strong>, your booking is confirmed!
+    </p>
+
+    <div class="route-card">
+      <div class="route-info">
+        <div class="city">
+          <div class="city-name">Hyderabad</div>
+          <div class="city-time">08:00 pm</div>
+        </div>
+        <div class="arrow">→</div>
+        <div class="city">
+          <div class="city-name">Chennai</div>
+          <div class="city-time">04:00 am</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="details-grid">
+      <div class="detail-item">
+        <div class="detail-label">Bus Name</div>
+        <div class="detail-value">SRS Travels</div>
+      </div>
+      <div class="detail-item">
+        <div class="detail-label">Bus Number</div>
+        <div class="detail-value">KA-07-MN-3344</div>
+      </div>
+      <div class="detail-item">
+        <div class="detail-label">Travel Date</div>
+        <div class="detail-value">25 May 2026</div>
+      </div>
+      <div class="detail-item">
+        <div class="detail-label">Seats</div>
+        <div class="seats-list">
+          <span class="seat-badge">F3</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="amount-box">
+      <div class="label">Total Amount Paid</div>
+      <div class="value">₹<span>849.00</span></div>
+    </div>
+
+    <div class="qr-section">
+      <p style="font-weight:600;font-size:15px;margin-bottom:12px;">🎫 Your Boarding QR Code</p>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQAAAACgl2eQAAACQ0lEQVR4Xu2YQW6EMAxFPWKRJUfgJsPFkEDiYsxNcgSWLBDu/05bAW1ny1eFF1EJb6Q6+rZ/MH8fk513TnEDJW6gxA2U+E+AIRqzeswLFvfX3HGrlwKS+9r4ZpWnCcvSzl3jPosBk3XN8kQWaUM+ywO8PRQBn2rmM1clKVXA+mytj/5nFtcC/Ld51JCCr5ZeP/QgAERlxfb38kvpXQxEWEspTDXyab83hQB7srLauc+JB4xutTbHoxYA0gsLpIoeiixsMTSqw1FLAFs9UKrYbN3z8pWUFFACqbD8UVkstGhZSgD02iELHzNGZs+5aZxQvRQQgc6JCd8iFSQwFvkqASj6waKHRrdCZQ3oq3vRCgAcPzl6aBw1EjCePEMHQOWjsmg+gmIWdhCtAuBb8ZpoT6h8Y43xR1oAjhWWg+WFjSpDHhjzB8EoADjWHA6EKsj2xEhKfKEEUA9NFD0POGNkwobsy18B4AMaPeuJykACI02oGMCRGfeL5cG/eF2z/dxUACDQKpaMPhrK7XjyfKUDOB2IEUAjrUqhxb4SYCwqxMCnctOgPHot4HNQVjm8ZujhIFoFINESgXIaurXoIYVh0gJg3sJm0sYZ45zF5UAERGtUrjGLni1BC+Ab2GDMJXrhHBe3k2ivB1LUE79j8WMH8Z4XI74SAqhSWndb+AkGu9ADXwgCYd3rcEicS3tVqwA8al4ynMN9ODkQBYB6KK6TNg7KtVJeSgCe4yY5cLviNII13mehALyJGyhxAyVuoMQNlJg+AA8mKaN/8TwjAAAAAElFTkSuQmCC" alt="QR Code" />
+      <p>Show this QR code to the conductor at the time of boarding</p>
+    </div>
+
+    <div style="text-align:center; margin-top:24px;">
+      <a href="http://localhost:5173/bookings/BT2605251307525589" class="btn">View Booking Details</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© 2024 BusTix · <a href="#" style="color:#6366f1;">Terms</a> · <a href="#" style="color:#6366f1;">Support</a></p>
+    <p style="margin-top:6px;">Please keep this email as your travel reference</p>
+  </div>
+</div>
+</body>
+</html>
