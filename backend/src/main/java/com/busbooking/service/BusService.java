@@ -32,6 +32,8 @@ public class BusService {
         log.info("Searching buses from {} to {} on {}", request.getSource(),
                 request.getDestination(), request.getTravelDate());
 
+        log.info("Requested seats: {}", request.getSeats());
+
         List<Schedule> schedules = scheduleRepository.findAvailableSchedules(
                 request.getSource(), request.getDestination(),
                 request.getTravelDate(), request.getSeats()
