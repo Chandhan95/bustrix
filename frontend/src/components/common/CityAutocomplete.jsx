@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { FaMapMarkerAlt, FaTimes, FaSearch } from 'react-icons/fa'
 
-// Comprehensive list of Indian cities for bus travel
+
 const INDIAN_CITIES = [
   "Agra", "Ahmedabad", "Ajmer", "Allahabad", "Amritsar", "Aurangabad",
   "Bangalore", "Belgaum", "Bhopal", "Bhubaneswar", "Chandigarh", "Chennai",
@@ -13,7 +13,7 @@ const INDIAN_CITIES = [
   "Nashik", "Noida", "Patna", "Pondicherry", "Pune", "Raipur",
   "Rajkot", "Ranchi", "Surat", "Thiruvananthapuram", "Tiruchirappalli",
   "Udaipur", "Vadodara", "Varanasi", "Vijayawada", "Visakhapatnam",
-  // Additional cities
+  
   "Agartala", "Bhilai", "Bikaner", "Cuttack", "Dhule", "Erode",
   "Guntur", "Hassan", "Haridwar", "Hubli", "Imphal", "Itanagar",
   "Jabalpur", "Jamnagar", "Jhansi", "Kolhapur", "Latur", "Malegaon",
@@ -39,7 +39,7 @@ export default function CityAutocomplete({
   const containerRef = useRef(null)
   const inputRef = useRef(null)
 
-  // Try to fetch more cities from online API once
+  
   useEffect(() => {
     const cached = sessionStorage.getItem('bustix_cities')
     if (cached) {
