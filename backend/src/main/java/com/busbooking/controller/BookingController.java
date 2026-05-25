@@ -47,6 +47,7 @@ public class BookingController {
         Pageable pageable = PageRequest.of(page, size);
         Page<BookingResponse> bookings = bookingService.getUserBookings(
                 authentication.getName(), pageable);
+                log.info("Fetched {} bookings for user {}", bookings.getTotalElements(), authentication.getName());
         return ResponseEntity.ok(ApiResponse.success("Bookings fetched", bookings));
     }
 
