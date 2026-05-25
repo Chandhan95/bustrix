@@ -153,9 +153,9 @@ npm run dev
 
 | Method | Endpoint                    | Description            | Auth |
 |--------|-----------------------------|------------------------|------|
-| POST   | /api/auth/register          | Register user          | ❌   |
-| POST   | /api/auth/login             | Login                  | ❌   |
-| POST   | /api/buses/search           | Search buses           | ❌   |
+| POST   | /api/auth/register          | Register user          | ✅   |
+| POST   | /api/auth/login             | Login                  | ✅   |
+| POST   | /api/buses/search           | Search buses           | ✅   |
 | GET    | /api/buses/{id}/seats       | Get seat map           | ✅   |
 | POST   | /api/bookings               | Create booking         | ✅   |
 | GET    | /api/bookings/my            | My booking history     | ✅   |
