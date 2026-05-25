@@ -36,7 +36,7 @@ public class AdminController {
     private final BusService busService;
     private final SeatService seatService;
 
-    // ======= DASHBOARD =======
+    
 
     @GetMapping("/dashboard")
     public ResponseEntity<ApiResponse<AdminDashboardResponse>> getDashboard() {
@@ -44,7 +44,7 @@ public class AdminController {
         return ResponseEntity.ok(ApiResponse.success("Dashboard data fetched", stats));
     }
 
-    // ======= USER MANAGEMENT =======
+    
 
     @GetMapping("/users")
     public ResponseEntity<ApiResponse<Page<UserResponse>>> getAllUsers(

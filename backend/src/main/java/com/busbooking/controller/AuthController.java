@@ -13,7 +13,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
-
+//Controller for handling authentication-related endpoints such as registration, login, email verification, and password reset. It uses AuthService to perform the actual business logic and returns standardized API responses.
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor
