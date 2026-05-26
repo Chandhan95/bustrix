@@ -21,3 +21,8 @@
 2026-05-25 14:01:43.842 [http-nio-2020-exec-9] INFO  - Creating booking for schedule 10 by user vaishnavi_vemulapalli@srmap.edu.in
 2026-05-25 14:01:43.941 [http-nio-2020-exec-9] INFO  - Booking confirmed: PNR=BT2605251401438432, User=vaishnavi_vemulapalli@srmap.edu.in, Seats=[D3, D4, E3, E4, F3]
 2026-05-25 14:02:38.718 [http-nio-2020-exec-6] INFO  - Booking cancelled: PNR=BT2605251307525589, Reason=advv
+2026-05-25 15:12:11.811 [http-nio-2020-exec-3] INFO  - Creating booking for schedule 84 by user vaishnavi_vemulapalli@srmap.edu.in
+2026-05-25 15:12:12.277 [http-nio-2020-exec-3] INFO  - Booking confirmed: PNR=BT2605251512116224, User=vaishnavi_vemulapalli@srmap.edu.in, Seats=[C3]
+2026-05-25 18:13:16.079 [http-nio-2020-exec-7] INFO  - Creating booking for schedule 4 by user vaishnavi_vemulapalli@srmap.edu.in
+2026-05-25 18:13:16.190 [http-nio-2020-exec-7] INFO  - Booking confirmed: PNR=BT2605251813161211, User=vaishnavi_vemulapalli@srmap.edu.in, Seats=[A3]
+2026-05-25 18:13:56.097 [http-nio-2020-exec-9] INFO  - Booking cancelled: PNR=BT2605251813161211, Reason=dv
